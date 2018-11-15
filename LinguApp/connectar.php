@@ -1,7 +1,10 @@
 <?php
-
+    # Este archivo sirve como conexion a una base de datos 
+    # mediante URL , sirve para mysql
+    # sirve sobretodo para la app que se basa en IONIC
+    
     function conecta_bd(){		
-    $servidor = "localhost";
+    $servidor = "localhost"; 
     $usuario = "root";
     $clave = "";
     $bd = "linguapp";		
